@@ -41,15 +41,18 @@ def lasso
   puts "Raise right forearm so that it points straight up, and whip it in small circles to the beat of the song, as if you were a cowboy holding a rope lasso. This movement is repeated eight times as well."
 end 
 
-starting_stance
-assume_stance
-bust_a_move
-base_footwork
-skip_step_left
-skip_step_right
-bob_the_reins
-skip_step_left
-skip_step_right
-lasso
-skip_step_left
-skip_step_right
+def gangnam_style
+  assume_stance
+  bust_a_move
+  base_footwork
+  skip_step_left
+  skip_step_right
+  bob_the_reins
+  skip_step_left
+  skip_step_right
+  lasso
+  skip_step_left
+  skip_step_right
+end 
+
+gangnam_style
